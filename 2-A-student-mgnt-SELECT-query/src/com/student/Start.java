@@ -42,7 +42,7 @@ public class Start {
 			
 			ResultSet rs2 = stm.executeQuery(query);
 			
-			// printing ResultSet using fields of table 
+			// printing ResultSet using fields of table.
 			while(rs2.next()) {
 				System.out.print(rs2.getInt("sid")+"\t");
 				System.out.print(rs2.getString("sname")+" \t");
@@ -52,8 +52,6 @@ public class Start {
 			
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
-				
+		}			
 	}
-
 }
